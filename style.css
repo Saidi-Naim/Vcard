@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    justify-content: center;
     padding: 3%;
     text-align: center;
     background-color: #000;
@@ -13,37 +15,31 @@ body{
     display: grid;
     grid-template-rows: repeat(3, 0.3fr);
     justify-items: center; 
-    /* border: 1px solid #fff; */
 }
 .nav{
     display: flex;
     justify-content: space-around;
-    /* border: 1px solid #fff; */
-    /* padding-left: 20%; */
-    /* padding-right: 20%; */
     list-style-type: none;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 button{
-    background-color: rgb(255, 252, 252);
     border-radius: 90%;
-    width: 40px;
-    height: 40px;
+    width: 45%;
+    height: 100%;
     border: none;
-    margin-top: 15%;
-    /* width: 50%; */
-    /* height: auto; */
+    margin-top: 40%;
 }
 .img-1{
     width: 50%;
     height: auto;
 }
 .card{
-    /* border: 2px solid rgb(250, 248, 248); */
     width: 50%;
-    height: auto;
+    height: 60%;
     padding-bottom: -80%;
     border-radius: 18px;
-    box-shadow: 0 0 8px 2px #ffbe01;
+    box-shadow: 0 0 10px 4px #ffbe01;
 }
 h1{
     font-size: 1.7em;
@@ -62,14 +58,13 @@ h1{
 .container{
     display: grid;
     grid-template-rows:repeat(3, 80px);
-    /* border: 1px solid #fff; */
+    padding-bottom: 3%;
 }
 .title-main{
     display: flex;
     color: #ffbe01;
     justify-content: center;
     text-decoration: underline;
-    /* border: 1px solid #fff; */
 }
 .loca{
     width: 100%;
@@ -77,5 +72,16 @@ h1{
     margin-bottom: -6.5%;
     border-radius: 0 0 18px 18px;
     margin-top: -6%;
-    
+}
+a{
+    text-decoration: none;
+    color: #ffbe01;
+}
+.btn{
+    background-color: #000;
+    color: #ffbe01;
+}
+i{
+    max-width: 80%;
+    max-height: 80%;
 }
